@@ -10,7 +10,7 @@ const connectDB = require("./config/db");
 // Connect to MongoDB
 connectDB();
 
-console.log("MONGO_URI =", process.env.MONGO_URI);
+//console.log("MONGO_URI =", process.env.MONGO_URI);
 
 const app = express();
 
